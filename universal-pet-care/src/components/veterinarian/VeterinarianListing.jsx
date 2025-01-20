@@ -38,7 +38,7 @@ const VeterinarianListing = () => {
   
 
   if (veterinarians.length === 0) {
-    return <p>No veterinarians found at this tiime</p>;
+    return <p>No veterinarians found at this time</p>;
   }
 
   return (
