@@ -28,6 +28,7 @@ const Home = () => {
                 support staff are committed to providing personalized care
                 tailored to the unique needs of each pet.
               </Card.Text>
+              <p>hi</p>
               <Card.Text>
                 We offer a wide range of services, from preventive care and
                 routine check-ups to advanced surgical procedures and emergency
