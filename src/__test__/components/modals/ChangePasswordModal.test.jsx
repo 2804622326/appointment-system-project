@@ -12,6 +12,7 @@ jest.mock('../../../components/common/AlertMessage', () => {
   };
 });
 jest.mock('../../../components/hooks/UseMessageAlerts', () => {
+  const React = require('react');
   return function UseMessageAlerts() {
     const [successMessage, setSuccessMessage] = React.useState('');
     const [errorMessage, setErrorMessage] = React.useState('');

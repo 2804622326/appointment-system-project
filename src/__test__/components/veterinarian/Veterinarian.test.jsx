@@ -1,7 +1,6 @@
 import React from 'react';
 import { render, screen, waitFor, fireEvent } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import { jest } from '@jest/globals';
 import Veterinarian from '../../../components/veterinarian/Veterinarian';
 import { getUserById } from '../../../components/user/UserService';
 
