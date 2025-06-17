@@ -14,15 +14,10 @@ jest.mock('../../../components/common/ProcessSpinner', () => {
   };
 });
 
-// Mock window.location
-const mockLocation = {
-  search: ''
+// Utility to modify the URL query string during tests
+const setLocationSearch = (search) => {
+  window.history.pushState({}, '', search);
 };
-
-Object.defineProperty(window, 'location', {
-  value: mockLocation,
-  writable: true
-});
 
 describe('EmailVerification', () => {
   beforeEach(() => {
@@ -31,14 +26,14 @@ describe('EmailVerification', () => {
 
   describe('Initial render and token handling', () => {
     it('should display loading message initially when token is present', () => {
-      mockLocation.search = '?token=valid-token';
+      setLocationSearch('?token=valid-token');
       render(<EmailVerification />);
       
       expect(screen.getByText('Verifying your email, please wait....')).toBeInTheDocument();
     });
 
     it('should display error message when no token is provided', () => {
-      mockLocation.search = '';
+      setLocationSearch('');
       render(<EmailVerification />);
       
       expect(screen.getByText('No token provided.')).toBeInTheDocument();
@@ -48,7 +43,7 @@ describe('EmailVerification', () => {
 
   describe('Email verification success scenarios', () => {
     it('should display success message when email is verified (VALID)', async () => {
-      mockLocation.search = '?token=valid-token';
+      setLocationSearch('?token=valid-token');
       verifyEmail.mockResolvedValue({ message: 'VALID' });
 
       render(<EmailVerification />);
@@ -60,7 +55,7 @@ describe('EmailVerification', () => {
     });
 
     it('should display info message when email is already verified (VERIFIED)', async () => {
-      mockLocation.search = '?token=valid-token';
+      setLocationSearch('?token=valid-token');
       verifyEmail.mockResolvedValue({ message: 'VERIFIED' });
 
       render(<EmailVerification />);
@@ -72,7 +67,7 @@ describe('EmailVerification', () => {
     });
 
     it('should display error message for unexpected response', async () => {
-      mockLocation.search = '?token=valid-token';
+      setLocationSearch('?token=valid-token');
       verifyEmail.mockResolvedValue({ message: 'UNEXPECTED' });
 
       render(<EmailVerification />);
@@ -86,7 +81,7 @@ describe('EmailVerification', () => {
 
   describe('Email verification error scenarios', () => {
     it('should handle invalid token error', async () => {
-      mockLocation.search = '?token=invalid-token';
+      setLocationSearch('?token=invalid-token');
       verifyEmail.mockRejectedValue({
         response: {
           data: { message: 'INVALID' }
@@ -102,7 +97,7 @@ describe('EmailVerification', () => {
     });
 
     it('should handle expired token error with resend button', async () => {
-      mockLocation.search = '?token=expired-token';
+      setLocationSearch('?token=expired-token');
       verifyEmail.mockRejectedValue({
         response: {
           data: { message: 'EXPIRED' }
@@ -119,7 +114,7 @@ describe('EmailVerification', () => {
     });
 
     it('should handle network error', async () => {
-      mockLocation.search = '?token=valid-token';
+      setLocationSearch('?token=valid-token');
       verifyEmail.mockRejectedValue(new Error('Network Error'));
 
       render(<EmailVerification />);
@@ -133,7 +128,7 @@ describe('EmailVerification', () => {
 
   describe('Loading states', () => {
     it('should show spinner during email verification', async () => {
-      mockLocation.search = '?token=valid-token';
+      setLocationSearch('?token=valid-token');
       verifyEmail.mockImplementation(() => new Promise(resolve => setTimeout(() => resolve({ message: 'VALID' }), 100)));
 
       render(<EmailVerification />);
@@ -143,7 +138,7 @@ describe('EmailVerification', () => {
     });
 
     it('should hide spinner after verification completes', async () => {
-      mockLocation.search = '?token=valid-token';
+      setLocationSearch('?token=valid-token');
       verifyEmail.mockResolvedValue({ message: 'VALID' });
 
       render(<EmailVerification />);
@@ -156,7 +151,7 @@ describe('EmailVerification', () => {
 
   describe('Resend verification token', () => {
     it('should successfully resend verification token', async () => {
-      mockLocation.search = '?token=expired-token';
+      setLocationSearch('?token=expired-token');
       verifyEmail.mockRejectedValue({
         response: {
           data: { message: 'EXPIRED' }
@@ -181,7 +176,7 @@ describe('EmailVerification', () => {
     });
 
     it('should handle resend token error with response data', async () => {
-      mockLocation.search = '?token=expired-token';
+      setLocationSearch('?token=expired-token');
       verifyEmail.mockRejectedValue({
         response: {
           data: { message: 'EXPIRED' }
@@ -209,7 +204,7 @@ describe('EmailVerification', () => {
     });
 
     it('should handle resend token error with error message', async () => {
-      mockLocation.search = '?token=expired-token';
+      setLocationSearch('?token=expired-token');
       verifyEmail.mockRejectedValue({
         response: {
           data: { message: 'EXPIRED' }
@@ -233,7 +228,7 @@ describe('EmailVerification', () => {
     });
 
     it('should handle resend token generic error', async () => {
-      mockLocation.search = '?token=expired-token';
+      setLocationSearch('?token=expired-token');
       verifyEmail.mockRejectedValue({
         response: {
           data: { message: 'EXPIRED' }
@@ -257,7 +252,7 @@ describe('EmailVerification', () => {
     });
 
     it('should show spinner during resend token process', async () => {
-      mockLocation.search = '?token=expired-token';
+      setLocationSearch('?token=expired-token');
       verifyEmail.mockRejectedValue({
         response: {
           data: { message: 'EXPIRED' }
@@ -278,7 +273,7 @@ describe('EmailVerification', () => {
     });
 
     it('should not call resend when no token is available', async () => {
-      mockLocation.search = '';
+      setLocationSearch('');
       verifyEmail.mockRejectedValue({
         response: {
           data: { message: 'EXPIRED' }
@@ -299,7 +294,7 @@ describe('EmailVerification', () => {
 
   describe('Component structure', () => {
     it('should render with correct CSS classes', () => {
-      mockLocation.search = '';
+      setLocationSearch('');
       render(<EmailVerification />);
 
       const container = screen.getByRole('alert').closest('.d-flex');
@@ -310,7 +305,7 @@ describe('EmailVerification', () => {
     });
 
     it('should render alert with correct role', () => {
-      mockLocation.search = '';
+      setLocationSearch('');
       render(<EmailVerification />);
 
       expect(screen.getByRole('alert')).toBeInTheDocument();

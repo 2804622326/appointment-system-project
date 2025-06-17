@@ -10,9 +10,10 @@ jest.mock('../../../components/hooks/UseMessageAlerts');
 jest.mock('../../../components/common/AlertMessage');
 jest.mock('../../../components/common/ProcessSpinner');
 
-// Mock window.location.search
-delete window.location;
-window.location = { search: '' };
+// Utility to manipulate URL search
+const setLocationSearch = (search) => {
+  window.history.pushState({}, '', search);
+};
 
 const mockUseMessageAlerts = {
   errorMessage: '',
@@ -38,7 +39,7 @@ describe('ResetPassword Component', () => {
   });
 
   test('renders pending state initially when token is present', () => {
-    window.location.search = '?token=valid-token';
+    setLocationSearch('?token=valid-token');
     validateToken.mockResolvedValue({ message: 'VALID' });
 
     render(<ResetPassword />);
@@ -48,7 +49,7 @@ describe('ResetPassword Component', () => {
   });
 
   test('renders password reset form when token is valid', async () => {
-    window.location.search = '?token=valid-token';
+    setLocationSearch('?token=valid-token');
     validateToken.mockResolvedValue({ message: 'VALID' });
 
     render(<ResetPassword />);
@@ -62,7 +63,7 @@ describe('ResetPassword Component', () => {
   });
 
   test('renders error message when token validation fails', async () => {
-    window.location.search = '?token=invalid-token';
+    setLocationSearch('?token=invalid-token');
     validateToken.mockRejectedValue({ 
       response: { data: { message: 'Invalid token' } } 
     });
@@ -76,7 +77,7 @@ describe('ResetPassword Component', () => {
   });
 
   test('renders invalid token message when token status is not VALID or PENDING', async () => {
-    window.location.search = '?token=expired-token';
+    setLocationSearch('?token=expired-token');
     validateToken.mockResolvedValue({ message: 'EXPIRED' });
 
     render(<ResetPassword />);
@@ -88,7 +89,7 @@ describe('ResetPassword Component', () => {
   });
 
   test('handles password input change', async () => {
-    window.location.search = '?token=valid-token';
+    setLocationSearch('?token=valid-token');
     validateToken.mockResolvedValue({ message: 'VALID' });
 
     render(<ResetPassword />);
@@ -101,7 +102,7 @@ describe('ResetPassword Component', () => {
   });
 
   test('handles successful password reset', async () => {
-    window.location.search = '?token=valid-token';
+    setLocationSearch('?token=valid-token');
     validateToken.mockResolvedValue({ message: 'VALID' });
     resetPassword.mockResolvedValue({ message: 'Password reset successfully' });
 
@@ -123,7 +124,7 @@ describe('ResetPassword Component', () => {
   });
 
   test('handles password reset error', async () => {
-    window.location.search = '?token=valid-token';
+    setLocationSearch('?token=valid-token');
     validateToken.mockResolvedValue({ message: 'VALID' });
     resetPassword.mockRejectedValue({ 
       response: { data: { message: 'Password reset failed' } } 
@@ -146,7 +147,7 @@ describe('ResetPassword Component', () => {
   });
 
   test('shows processing spinner during password reset', async () => {
-    window.location.search = '?token=valid-token';
+    setLocationSearch('?token=valid-token');
     validateToken.mockResolvedValue({ message: 'VALID' });
     resetPassword.mockImplementation(() => new Promise(resolve => setTimeout(resolve, 100)));
 
@@ -164,7 +165,7 @@ describe('ResetPassword Component', () => {
   });
 
   test('does not validate token when no token is present', () => {
-    window.location.search = '';
+    setLocationSearch('');
     
     render(<ResetPassword />);
     
