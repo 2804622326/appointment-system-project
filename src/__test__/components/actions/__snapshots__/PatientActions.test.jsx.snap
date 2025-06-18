@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PatientActions and handles interactions 1`] = `
+<DocumentFragment>
+  <section
+    class="d-flex justify-content-end gap-2 mt-2 mb-2"
+  >
+    <button
+      class="btn btn-warning btn-sm"
+      type="button"
+    >
+      Update Appointment
+    </button>
+    <button
+      class="btn btn-danger btn-sm"
+      type="button"
+    >
+      Cancel Appointment
+    </button>
+  </section>
+</DocumentFragment>
+`;

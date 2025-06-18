@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ActionButtons and handles click 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-primary btn-sm"
+    type="button"
+  >
+    Test Button
+  </button>
+</DocumentFragment>
+`;
