@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loads specializations and handles change 1`] = `
+<DocumentFragment>
+  <div
+    class="mb-4 col"
+  >
+    <select
+      class="form-control"
+      id="specialization"
+      name="specialization"
+      required=""
+    >
+      <option
+        value=""
+      >
+        ...select specialization...
+      </option>
+      <option
+        value="Surg"
+      >
+        Surg
+      </option>
+      <option
+        value="Add-New"
+      >
+        Add New
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

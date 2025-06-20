@@ -1,6 +1,9 @@
 import React from 'react';
-import Component from '../../../components/veterinarian/Veterinarian.jsx';
+import { render } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import Veterinarian from '../../../components/veterinarian/Veterinarian.jsx';
 
-test('renders without crashing', () => {
-  expect(Component).toBeDefined();
+test('renders veterinarian snapshot', () => {
+  const { asFragment } = render(<Veterinarian vet={{ firstName: 'A', lastName: 'B', specialization: 'Surg' }} />);
+  expect(asFragment()).toMatchSnapshot();
 });

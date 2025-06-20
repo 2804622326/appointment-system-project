@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`resends token when link expired 1`] = `
+<DocumentFragment>
+  <div
+    class="d-flex justify-content-center  mt-lg-5"
+  >
+    <div
+      class="col-12 col-md-6"
+    >
+      <div
+        class="alert alert-success"
+        role="alert"
+      >
+        resent
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`shows verification success and snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="d-flex justify-content-center  mt-lg-5"
+  >
+    <div
+      class="col-12 col-md-6"
+    >
+      <div
+        class="alert alert-success"
+        role="alert"
+      >
+        Your email has been successfully verified, you can proceed to login.
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays fetched counts with snapshot 1`] = `
+<DocumentFragment>
+  <main>
+    <h5
+      class="chart-title"
+    >
+      Activities Overview
+    </h5>
+    <div
+      class="main-cards"
+    >
+      <div
+        class="admin-card"
+      >
+        <div
+          class="card-inner"
+        >
+          USERS
+          <svg
+            class="card-icon"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"
+            />
+          </svg>
+        </div>
+        <h3>
+          20
+        </h3>
+      </div>
+      <div
+        class="admin-card"
+      >
+        <div
+          class="card-inner"
+        >
+          APPOINTMENTS
+          <svg
+            class="card-icon"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"
+            />
+          </svg>
+        </div>
+        <h3>
+          7
+        </h3>
+      </div>
+      <div
+        class="admin-card"
+      >
+        <div
+          class="card-inner"
+        >
+          VETERINARIANS
+          <svg
+            class="card-icon"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"
+            />
+          </svg>
+        </div>
+        <h3>
+          3
+        </h3>
+      </div>
+      <div
+        class="admin-card"
+      >
+        <div
+          class="card-inner"
+        >
+          PATIENTS
+          <svg
+            class="card-icon"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"
+            />
+          </svg>
+        </div>
+        <h3>
+          5
+        </h3>
+      </div>
+    </div>
+    <div
+      class="charts"
+    >
+      <div
+        class="chart-container"
+      >
+        <div
+          data-testid="reg-chart"
+        />
+      </div>
+      <div
+        class="chart-container"
+      >
+        <div
+          data-testid="app-chart"
+        />
+      </div>
+      <div
+        class="chart-container"
+      >
+        <div
+          data-testid="acct-chart"
+        />
+      </div>
+      <div
+        class="chart-container"
+      >
+        <div
+          data-testid="spec-chart"
+        />
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;

@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loads user and submits update 1`] = `
+<DocumentFragment>
+  <div
+    class="d-flex justify-content-center mt-5 container"
+    md="6"
+  >
+    <div
+      class="col-md-6"
+    >
+      <form
+        class=""
+      >
+        <div
+          class="shadow mb-5 card"
+        >
+          <div
+            class="text-center mb-2 card-header"
+          >
+            Update User Information
+          </div>
+          <div
+            class="card-body"
+          >
+            <fieldset
+              class="field-set"
+            >
+              <legend>
+                Full Name
+              </legend>
+              <div
+                class="mb-2 d-flex col"
+              >
+                <input
+                  class="form-control"
+                  id="nameFields"
+                  name="firstName"
+                  style="margin-right: 10px;"
+                  type="text"
+                  value="A"
+                />
+                <input
+                  class="form-control"
+                  id="nameFields"
+                  name="lastName"
+                  type="text"
+                  value="B"
+                />
+              </div>
+            </fieldset>
+            <div
+              class="mb-2 col"
+            >
+              <label
+                class="legend form-label"
+                for="gender"
+              >
+                Gender
+              </label>
+              <select
+                class="form-control"
+                id="gender"
+                name="gender"
+              >
+                <option
+                  value=""
+                >
+                  Select Gender
+                </option>
+                <option
+                  value="Male"
+                >
+                  Male
+                </option>
+                <option
+                  value="Female"
+                >
+                  Female
+                </option>
+                <option
+                  value="Others"
+                >
+                  Others
+                </option>
+              </select>
+            </div>
+            <div
+              class="mb-2 col"
+            >
+              <label
+                class="legend form-label"
+                for="gender"
+              >
+                User Type
+              </label>
+              <input
+                class="form-control"
+                disabled=""
+                id="gender"
+                name="userType"
+                type="text"
+                value="PATIENT"
+              />
+            </div>
+            <fieldset
+              class="field-set mb-2 mt-2"
+            >
+              <legend>
+                Contact Information
+              </legend>
+              <div
+                class="mb-2 d-flex col"
+              >
+                <input
+                  class="form-control"
+                  disabled=""
+                  id="emailPhoneFields"
+                  name="email"
+                  style="margin-right: 10px;"
+                  type="email"
+                  value=""
+                />
+                <input
+                  class="form-control"
+                  id="emailPhoneFields"
+                  name="phoneNumber"
+                  placeholder="Mobile Contact"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </fieldset>
+            <div
+              class="fade alert alert-success alert-dismissible show"
+              role="alert"
+            >
+              <button
+                aria-label="Close alert"
+                class="btn-close"
+                type="button"
+              />
+              updated
+            </div>
+            <div
+              class="d-flex justify-content-center"
+            >
+              <div
+                class="mx-2"
+              >
+                <button
+                  class="btn btn-outline-warning btn-sm"
+                  type="submit"
+                >
+                  Update
+                </button>
+              </div>
+              <div
+                class="mx-2"
+              >
+                <button
+                  class="btn btn-outline-info btn-sm"
+                  type="button"
+                >
+                  Back to profile
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

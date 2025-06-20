@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders slider snapshot 1`] = `
+<DocumentFragment>
+  <main>
+    <div
+      class="carousel slide"
+    >
+      <div
+        class="carousel-indicators"
+      />
+      <div
+        class="carousel-inner"
+      />
+      <a
+        class="carousel-control-prev"
+        href="#"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          aria-hidden="true"
+          class="carousel-control-prev-icon"
+        />
+        <span
+          class="visually-hidden"
+        >
+          Previous
+        </span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          aria-hidden="true"
+          class="carousel-control-next-icon"
+        />
+        <span
+          class="visually-hidden"
+        >
+          Next
+        </span>
+      </a>
+    </div>
+  </main>
+</DocumentFragment>
+`;

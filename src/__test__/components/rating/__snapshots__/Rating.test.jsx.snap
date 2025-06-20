@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating component submits review when logged in 1`] = `
+<DocumentFragment>
+  <div
+    class="fade alert alert-success alert-dismissible show"
+    role="alert"
+  >
+    <button
+      aria-label="Close alert"
+      class="btn-close"
+      type="button"
+    />
+    ok
+  </div>
+  <form
+    class=""
+  >
+    <h3>
+      Rate this doctor :
+    </h3>
+    <div
+      class="mb-2"
+    >
+      <label
+        class="me-2 form-label"
+      >
+        <input
+          class="form-control"
+          name="rating"
+          type="radio"
+          value="1"
+        />
+        <svg
+          class="star"
+          color="#ffc107"
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          style="color: rgb(255, 193, 7);"
+          viewBox="0 0 576 512"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          />
+        </svg>
+      </label>
+      <label
+        class="me-2 form-label"
+      >
+        <input
+          class="form-control"
+          name="rating"
+          type="radio"
+          value="2"
+        />
+        <svg
+          class="star"
+          color="#ffc107"
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          style="color: rgb(255, 193, 7);"
+          viewBox="0 0 576 512"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          />
+        </svg>
+      </label>
+      <label
+        class="me-2 form-label"
+      >
+        <input
+          class="form-control"
+          name="rating"
+          type="radio"
+          value="3"
+        />
+        <svg
+          class="star"
+          color="#ffc107"
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          style="color: rgb(255, 193, 7);"
+          viewBox="0 0 576 512"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          />
+        </svg>
+      </label>
+      <label
+        class="me-2 form-label"
+      >
+        <input
+          class="form-control"
+          name="rating"
+          type="radio"
+          value="4"
+        />
+        <svg
+          class="star"
+          color="#e4e5e9"
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          style="color: rgb(228, 229, 233);"
+          viewBox="0 0 576 512"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          />
+        </svg>
+      </label>
+      <label
+        class="me-2 form-label"
+      >
+        <input
+          class="form-control"
+          name="rating"
+          type="radio"
+          value="5"
+        />
+        <svg
+          class="star"
+          color="#e4e5e9"
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          style="color: rgb(228, 229, 233);"
+          viewBox="0 0 576 512"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          />
+        </svg>
+      </label>
+    </div>
+    <div>
+      <textarea
+        class="form-control"
+        id="feedback"
+        placeholder="Leave a feedback message"
+        required=""
+        row="4"
+      >
+        hi
+      </textarea>
+    </div>
+    <div
+      class="mt-2"
+    >
+      <button
+        class="btn btn-outline-primary"
+        type="submit"
+      >
+        Submit review
+      </button>
+    </div>
+    <p>
+      You have rated this doctor with 
+      <span
+        style="color: orange;"
+      >
+        3 stars
+      </span>
+    </p>
+  </form>
+</DocumentFragment>
+`;

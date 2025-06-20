@@ -1,6 +1,16 @@
 import React from 'react';
-import Component from '../../../components/layout/RootLayout.jsx';
+import { render } from '@testing-library/react';
+import { MemoryRouter, Routes, Route } from 'react-router-dom';
+import '@testing-library/jest-dom';
+import RootLayout from '../../../components/layout/RootLayout.jsx';
 
-test('renders without crashing', () => {
-  expect(Component).toBeDefined();
+test('renders layout with outlet', () => {
+  const { asFragment } = render(
+    <MemoryRouter initialEntries={["/"]}>
+      <Routes>
+        <Route element={<RootLayout />}> <Route index element={<div>Home</div>} /></Route>
+      </Routes>
+    </MemoryRouter>
+  );
+  expect(asFragment()).toMatchSnapshot();
 });

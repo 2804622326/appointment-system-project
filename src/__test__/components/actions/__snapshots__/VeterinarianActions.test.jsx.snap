@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders VeterinarianActions and handles approve/decline 1`] = `
+<DocumentFragment>
+  <section
+    class="d-flex justify-content-end gap-2 mt-2 mb-2"
+  >
+    <button
+      class="btn btn-success btn-sm"
+      type="button"
+    >
+      Approve Appointment
+    </button>
+    <button
+      class="btn btn-secondary btn-sm"
+      type="button"
+    >
+      <div
+        class="text-center"
+      >
+        <span
+          aria-hidden="true"
+          class="spinner-border spinner-border-sm"
+          role="status"
+        />
+        <span
+          class="sr-only"
+        >
+          Declining appointment...
+        </span>
+      </div>
+    </button>
+  </section>
+</DocumentFragment>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders custom pie chart with cells 1`] = `
+<DocumentFragment>
+  <section
+    class="mb-5 mt-5"
+  >
+    <div>
+      <div
+        data-testid="pie-chart"
+      >
+        <div>
+          <div
+            data-testid="cell"
+          />
+        </div>
+        <div />
+        <div />
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

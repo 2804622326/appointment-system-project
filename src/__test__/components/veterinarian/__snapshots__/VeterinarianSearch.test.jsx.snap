@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`searches veterinarians 1`] = `
+<DocumentFragment>
+  <section
+    class="stickyFormContainer"
+  >
+    <h3>
+      Find a Veterinarian
+    </h3>
+    <form
+      class=""
+    >
+      <div>
+        <label
+          class="form-label"
+        >
+          Specialization
+        </label>
+        <select
+          class="form-control"
+          name="specialization"
+        >
+          <option
+            value=""
+          >
+            Select Specialization
+          </option>
+          <option
+            value="Surg"
+          >
+            Surg
+          </option>
+        </select>
+      </div>
+      <fieldset>
+        <div
+          class="mb-3 row"
+        >
+          <div
+            class="col"
+          >
+            <div
+              class="mb-3 mt-3"
+            >
+              <div
+                class="form-check"
+              >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                />
+                <label
+                  class="form-check-label"
+                  title=""
+                >
+                  Include Date and Time Availabilty
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <div
+        class="d-flex justify-content-center mb-4"
+      >
+        <button
+          class="btn btn-outline-primary"
+          type="submit"
+        >
+          Search
+        </button>
+        <div
+          class="mx-2"
+        >
+          <button
+            class="btn btn-outline-info"
+            type="button"
+          >
+            Clear Search
+          </button>
+        </div>
+      </div>
+    </form>
+    <div />
+  </section>
+</DocumentFragment>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selects value and clears filter 1`] = `
+<DocumentFragment>
+  <div
+    class="mb-2 input-group"
+  >
+    <span
+      class="input-group-text"
+    >
+      Filter by Role
+    </span>
+    <select
+      class="form-control form-select"
+    >
+      <option
+        value=""
+      >
+        ...Select role...
+      </option>
+      <option
+        value="Admin"
+      >
+        Admin
+      </option>
+      <option
+        value="User"
+      >
+        User
+      </option>
+    </select>
+    <button
+      class="btn btn-secondary"
+      type="button"
+    >
+      Clear Filter
+    </button>
+  </div>
+</DocumentFragment>
+`;
