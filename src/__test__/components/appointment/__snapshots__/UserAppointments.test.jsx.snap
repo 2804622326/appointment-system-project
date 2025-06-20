@@ -1,0 +1,1059 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles cancel flow and snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="p-3 container"
+  >
+    <div>
+      <button>
+        select
+      </button>
+      <button>
+        clear
+      </button>
+    </div>
+    <div
+      class="mt-4 mb-5 accordion"
+    >
+      <div
+        class="mb-4 accordion-item"
+      >
+        <h2
+          class="accordion-header"
+        >
+          <button
+            aria-expanded="false"
+            class="accordion-button collapsed"
+            type="button"
+          >
+            <div>
+              <div
+                class="mb-3"
+              >
+                Date: 2024-06-01
+              </div>
+              <div>
+                Status: waiting-for-approval
+              </div>
+            </div>
+          </button>
+        </h2>
+        <div
+          class="accordion-collapse collapse"
+        >
+          <div
+            class="accordion-body"
+          >
+            <div
+              class="mb-4 row"
+            >
+              <div
+                class="m-t2 col-md-4"
+              >
+                <p>
+                  Appointment Number : 
+                  <span
+                    class="text-info"
+                  >
+                    A1
+                  </span>
+                   
+                </p>
+                <div
+                  style="display: contents;"
+                >
+                  <div
+                    aria-label="Choose Date and Time"
+                    aria-modal="true"
+                    class="react-datepicker"
+                    role="dialog"
+                  >
+                    <span
+                      aria-live="polite"
+                      class="react-datepicker__aria-live"
+                      role="alert"
+                    />
+                    <button
+                      aria-label="Previous Month"
+                      class="react-datepicker__navigation react-datepicker__navigation--previous"
+                      type="button"
+                    >
+                      <span
+                        class="react-datepicker__navigation-icon react-datepicker__navigation-icon--previous"
+                      >
+                        Previous Month
+                      </span>
+                    </button>
+                    <button
+                      aria-label="Next Month"
+                      class="react-datepicker__navigation react-datepicker__navigation--next react-datepicker__navigation--next--with-time"
+                      type="button"
+                    >
+                      <span
+                        class="react-datepicker__navigation-icon react-datepicker__navigation-icon--next"
+                      >
+                        Next Month
+                      </span>
+                    </button>
+                    <div
+                      class="react-datepicker__month-container"
+                    >
+                      <div
+                        class="react-datepicker__header react-datepicker__header--has-time-select"
+                      >
+                        <div
+                          class="react-datepicker__current-month"
+                        >
+                          June 2024
+                        </div>
+                        <div
+                          class="react-datepicker__header__dropdown react-datepicker__header__dropdown--scroll"
+                        />
+                        <div
+                          class="react-datepicker__day-names"
+                        >
+                          <div
+                            aria-label="Sunday"
+                            class="react-datepicker__day-name"
+                          >
+                            Su
+                          </div>
+                          <div
+                            aria-label="Monday"
+                            class="react-datepicker__day-name"
+                          >
+                            Mo
+                          </div>
+                          <div
+                            aria-label="Tuesday"
+                            class="react-datepicker__day-name"
+                          >
+                            Tu
+                          </div>
+                          <div
+                            aria-label="Wednesday"
+                            class="react-datepicker__day-name"
+                          >
+                            We
+                          </div>
+                          <div
+                            aria-label="Thursday"
+                            class="react-datepicker__day-name"
+                          >
+                            Th
+                          </div>
+                          <div
+                            aria-label="Friday"
+                            class="react-datepicker__day-name"
+                          >
+                            Fr
+                          </div>
+                          <div
+                            aria-label="Saturday"
+                            class="react-datepicker__day-name"
+                          >
+                            Sa
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        aria-label="Month June, 2024"
+                        class="react-datepicker__month"
+                        role="listbox"
+                      >
+                        <div
+                          class="react-datepicker__week"
+                        >
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Sunday, May 26th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--026 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            26
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Monday, May 27th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--027 react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            27
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Tuesday, May 28th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--028 react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            28
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Wednesday, May 29th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--029 react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            29
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Thursday, May 30th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--030 react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            30
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Friday, May 31st, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--031 react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            31
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Saturday, June 1st, 2024"
+                            aria-selected="true"
+                            class="react-datepicker__day react-datepicker__day--001 react-datepicker__day--selected react-datepicker__day--weekend"
+                            role="option"
+                            tabindex="0"
+                            title=""
+                          >
+                            1
+                          </div>
+                        </div>
+                        <div
+                          class="react-datepicker__week"
+                        >
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Sunday, June 2nd, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--002 react-datepicker__day--weekend"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            2
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Monday, June 3rd, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--003"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            3
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Tuesday, June 4th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--004"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            4
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Wednesday, June 5th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--005"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            5
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Thursday, June 6th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--006"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            6
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Friday, June 7th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--007"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            7
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Saturday, June 8th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--008 react-datepicker__day--weekend"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            8
+                          </div>
+                        </div>
+                        <div
+                          class="react-datepicker__week"
+                        >
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Sunday, June 9th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--009 react-datepicker__day--weekend"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            9
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Monday, June 10th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--010"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            10
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Tuesday, June 11th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--011"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            11
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Wednesday, June 12th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--012"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            12
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Thursday, June 13th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--013"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            13
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Friday, June 14th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--014"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            14
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Saturday, June 15th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--015 react-datepicker__day--weekend"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            15
+                          </div>
+                        </div>
+                        <div
+                          class="react-datepicker__week"
+                        >
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Sunday, June 16th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--016 react-datepicker__day--weekend"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            16
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Monday, June 17th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--017"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            17
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Tuesday, June 18th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--018"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            18
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Wednesday, June 19th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--019"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            19
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Thursday, June 20th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--020"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            20
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Friday, June 21st, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--021"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            21
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Saturday, June 22nd, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--022 react-datepicker__day--weekend"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            22
+                          </div>
+                        </div>
+                        <div
+                          class="react-datepicker__week"
+                        >
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Sunday, June 23rd, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--023 react-datepicker__day--weekend"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            23
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Monday, June 24th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--024"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            24
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Tuesday, June 25th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--025"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            25
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Wednesday, June 26th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--026"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            26
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Thursday, June 27th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--027"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            27
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Friday, June 28th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--028"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            28
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Saturday, June 29th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--029 react-datepicker__day--weekend"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            29
+                          </div>
+                        </div>
+                        <div
+                          class="react-datepicker__week"
+                        >
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Sunday, June 30th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--030 react-datepicker__day--weekend"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            30
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Monday, July 1st, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--001 react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            1
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Tuesday, July 2nd, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--002 react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            2
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Wednesday, July 3rd, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--003 react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            3
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Thursday, July 4th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--004 react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            4
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Friday, July 5th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--005 react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            5
+                          </div>
+                          <div
+                            aria-disabled="false"
+                            aria-label="Choose Saturday, July 6th, 2024"
+                            aria-selected="false"
+                            class="react-datepicker__day react-datepicker__day--006 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                            role="option"
+                            tabindex="-1"
+                            title=""
+                          >
+                            6
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__time-container "
+                    >
+                      <div
+                        class="react-datepicker__header react-datepicker__header--time "
+                      >
+                        <div
+                          class="react-datepicker-time__header"
+                        >
+                          time
+                        </div>
+                      </div>
+                      <div
+                        class="react-datepicker__time"
+                      >
+                        <div
+                          class="react-datepicker__time-box"
+                        >
+                          <ul
+                            aria-label="time"
+                            class="react-datepicker__time-list"
+                            role="listbox"
+                          >
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              00:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              00:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              01:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              01:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              02:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              02:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              03:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              03:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              04:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              04:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              05:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              05:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              06:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              06:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              07:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              07:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              08:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              08:30
+                            </li>
+                            <li
+                              aria-selected="true"
+                              class="react-datepicker__time-list-item  react-datepicker__time-list-item--selected"
+                              role="option"
+                              tabindex="0"
+                            >
+                              09:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              09:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              10:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              10:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              11:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              11:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              12:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              12:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              13:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              13:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              14:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              14:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              15:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              15:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              16:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              16:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              17:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              17:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              18:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              18:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              19:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              19:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              20:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              20:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              21:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              21:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              22:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              22:30
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              23:00
+                            </li>
+                            <li
+                              class="react-datepicker__time-list-item "
+                              role="option"
+                              tabindex="-1"
+                            >
+                              23:30
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  Time :
+                  <span
+                    class="text-info"
+                  >
+                     09:00
+                  </span>
+                   
+                </p>
+                <p>
+                  Reason: Check
+                </p>
+              </div>
+              <div
+                class="mt-2 col-md-8"
+              >
+                <div
+                  data-testid="pets-table"
+                />
+              </div>
+            </div>
+            <a
+              href="/book-appointment/2/new-appointment"
+            >
+              Book New Apppointment
+            </a>
+            <div>
+              <button>
+                cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-testid="paginator"
+    />
+  </div>
+</DocumentFragment>
+`;

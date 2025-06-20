@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loads breeds and handles change 1`] = `
+<DocumentFragment>
+  <div
+    class="col"
+  >
+    <select
+      class="form-control"
+      id="petBreed"
+      name="breed"
+      required=""
+    >
+      <option
+        value=""
+      >
+        ...select breed...
+      </option>
+      <option
+        value="Bulldog"
+      >
+        Bulldog
+      </option>
+      <option
+        value="add-new-item"
+      >
+        Add New
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

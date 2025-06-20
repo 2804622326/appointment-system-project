@@ -1,5 +1,5 @@
-import * as Module from '../../../components/utils/api.js';
+import { api } from '../../../components/utils/api.js';
 
-test('module should be defined', () => {
-  expect(Module).toBeDefined();
+test('api instance has correct baseURL', () => {
+  expect(api.defaults.baseURL).toBe('http://localhost:9192/api/v1');
 });

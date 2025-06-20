@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fills form and submits 1`] = `
+<DocumentFragment>
+  <div
+    class="mt-5 container"
+  >
+    <div
+      class="justify-content-center row"
+    >
+      <div
+        class="col-lg-6 col-md-8 col-12"
+      >
+        <form
+          class=""
+        >
+          <div
+            class="shadow mb-5 card"
+          >
+            <div
+              class="text-center card-header"
+            >
+              User Registration Form
+            </div>
+            <div
+              class="card-body"
+            >
+              <fieldset>
+                <legend>
+                  Full Name
+                </legend>
+                <div
+                  class="row"
+                >
+                  <div
+                    class="mb-2 mb-sm-0 col-6"
+                  >
+                    <input
+                      class="form-control"
+                      name="firstName"
+                      placeholder="First Name"
+                      required=""
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="col-6"
+                  >
+                    <input
+                      class="form-control"
+                      name="lastName"
+                      placeholder="Last name"
+                      required=""
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </fieldset>
+              <div
+                class="mb-3 row"
+              >
+                <div
+                  class="col"
+                >
+                  <label
+                    class="form-label"
+                    for="gender"
+                  >
+                    Gender
+                  </label>
+                  <select
+                    class="form-control"
+                    id="gender"
+                    name="gender"
+                    required=""
+                  >
+                    <option
+                      value=""
+                    >
+                      ...select gender...
+                    </option>
+                    <option
+                      value="Male"
+                    >
+                      Male
+                    </option>
+                    <option
+                      value="Female"
+                    >
+                      Female
+                    </option>
+                    <option
+                      value="Others"
+                    >
+                      Others
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <fieldset>
+                <legend>
+                  Contact Infromation
+                </legend>
+                <div
+                  class="row"
+                >
+                  <div
+                    class="mb-2 mb-sm-0 col-sm-6"
+                  >
+                    <input
+                      class="form-control"
+                      name="email"
+                      placeholder="...email address..."
+                      required=""
+                      type="email"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="col-sm-6"
+                  >
+                    <input
+                      class="form-control"
+                      name="phoneNumber"
+                      placeholder="mobile phone number"
+                      required=""
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </fieldset>
+              <div
+                class="mb-3 row"
+              >
+                <div
+                  class="col"
+                >
+                  <label
+                    class="form-label"
+                    for="password"
+                  >
+                    Password
+                  </label>
+                  <input
+                    class="form-control"
+                    id="password"
+                    name="password"
+                    placeholder="...set your password..."
+                    required=""
+                    type="password"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="mb-3 row"
+              >
+                <div
+                  class="col"
+                >
+                  <label
+                    class="form-label"
+                    for="user-type"
+                  >
+                    Account Type
+                  </label>
+                  <select
+                    class="form-control"
+                    id="user-type"
+                    name="userType"
+                    required=""
+                  >
+                    <option
+                      value=""
+                    >
+                      ...select account type...
+                    </option>
+                    <option
+                      value="VET"
+                    >
+                      I'm a Veterinarian
+                    </option>
+                    <option
+                      value="PATIENT"
+                    >
+                      I'm a pet owner
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-center mb-3"
+              >
+                <button
+                  class="me-2 btn btn-outline-primary btn-sm"
+                  type="submit"
+                >
+                  Register
+                </button>
+                <button
+                  class="btn btn-outline-info btn-sm"
+                  type="button"
+                >
+                  Reset
+                </button>
+              </div>
+              <div
+                class="fade alert alert-success alert-dismissible show"
+                role="alert"
+              >
+                <button
+                  aria-label="Close alert"
+                  class="btn-close"
+                  type="button"
+                />
+                done
+              </div>
+              <div
+                class="text-center"
+              >
+                Registered already? 
+                <a
+                  href="/login"
+                  style="text-decoration: none;"
+                >
+                  Login here
+                </a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

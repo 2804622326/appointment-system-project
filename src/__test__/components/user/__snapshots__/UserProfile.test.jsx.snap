@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows user info and handles delete modal 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-3"
+      >
+        <div
+          class="text-center mb-3 shadow card"
+        >
+          <div
+            class="card-body"
+          >
+            <img
+              alt="User photo"
+              class="card-img user-image"
+              src="data:image/png;base64,p.jpg"
+            />
+          </div>
+          <div
+            class="text-center"
+          >
+            <p>
+               
+              <a
+                href="/"
+              >
+                Update Photo
+              </a>
+            </p>
+            <p>
+               
+              <a
+                href="/"
+              >
+                Remove Photo
+              </a>
+            </p>
+            <p>
+               
+              <a
+                href="/"
+              >
+                Change Password
+              </a>
+            </p>
+          </div>
+        </div>
+        <div
+          class="card-body"
+        >
+          <div
+            class="d-flex justify-content-center mb-4"
+          >
+            <div
+              class="mx-2"
+            >
+              <a
+                class="btn btn-warning btn-sm"
+                href="/update-user/1/update"
+              >
+                Edit profile
+              </a>
+            </div>
+            <div
+              class="mx-2"
+            >
+              <button
+                class="btn btn-danger btn-sm"
+                type="button"
+              >
+                Close account
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-8"
+      >
+        <div
+          class="mb-3 shadow card"
+        >
+          <div
+            class="d-flex align-items-center card-body"
+          >
+            <div
+              class="col-md-4"
+            >
+              First Name :
+            </div>
+            <div
+              class="col-md-4"
+            >
+              <p
+                class="card-text"
+              >
+                A
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex align-items-center card-body"
+          >
+            <div
+              class="col-md-4"
+            >
+              Last name :
+            </div>
+            <div
+              class="col-md-4"
+            >
+              <p
+                class="card-text"
+              >
+                B
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex align-items-center card-body"
+          >
+            <div
+              class="col-md-4"
+            >
+              Gender :
+            </div>
+            <div
+              class="col-md-4"
+            >
+              <p
+                class="card-text"
+              >
+                M
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex align-items-center card-body"
+          >
+            <div
+              class="col-md-4"
+            >
+              Email :
+            </div>
+            <div
+              class="col-md-4"
+            >
+              <p
+                class="card-text"
+              >
+                a@b.com
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex align-items-center card-body"
+          >
+            <div
+              class="col-md-4"
+            >
+              Mobile :
+            </div>
+            <div
+              class="col-md-4"
+            >
+              <p
+                class="card-text"
+              >
+                1
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex align-items-center card-body"
+          >
+            <div
+              class="col-md-4"
+            >
+              User Type :
+            </div>
+            <div
+              class="col-md-4"
+            >
+              <p
+                class="card-text"
+              >
+                PATIENT
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex align-items-center card-body"
+          >
+            <div
+              class="col-md-4"
+            >
+              Account status : 
+            </div>
+            <div
+              class="col-md-4"
+            >
+              <p
+                class="active card-text"
+              >
+                Active
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mb-3 shadow card"
+        >
+          <div
+            class="d-flex align-items-center card-body"
+          >
+            <div
+              class="col-md-2"
+            >
+              Role(s) :
+            </div>
+            <div
+              class="col-md-4"
+            >
+              <div
+                class="list-group list-group-flush"
+              >
+                <div
+                  class="text-success list-group-item"
+                >
+                  USER
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
