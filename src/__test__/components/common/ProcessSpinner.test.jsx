@@ -1,6 +1,11 @@
 import React from 'react';
-import Component from '../../../components/common/ProcessSpinner.jsx';
+import { render } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import ProcessSpinner from '../../../components/common/ProcessSpinner.jsx';
 
-test('renders without crashing', () => {
-  expect(Component).toBeDefined();
+test('renders spinner with message snapshot', () => {
+  const { asFragment } = render(
+    <ProcessSpinner message="Loading" animation="border" />
+  );
+  expect(asFragment()).toMatchSnapshot();
 });

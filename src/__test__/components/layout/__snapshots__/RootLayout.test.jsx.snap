@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders layout with outlet 1`] = `
+<DocumentFragment>
+  <main>
+    <nav
+      class="nav-bg navbar navbar-expand-lg navbar-light sticky-top"
+    >
+      <div
+        class="container"
+      >
+        <a
+          class="nav-home navbar-brand"
+          href="/"
+        >
+          uniPetcare
+        </a>
+        <button
+          aria-controls="responsive-navbar-nav"
+          aria-label="Toggle navigation"
+          class="navbar-toggler collapsed"
+          type="button"
+        >
+          <span
+            class="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          class="navbar-collapse collapse"
+          id="responsive-navbar-nav"
+        >
+          <div
+            class="me-auto navbar-nav"
+          >
+            <a
+              class="nav-link"
+              href="/doctors"
+            >
+              Meet Our Veterinarians
+            </a>
+          </div>
+          <div
+            class="navbar-nav"
+          >
+            <div
+              class="nav-item dropdown"
+            >
+              <a
+                aria-expanded="false"
+                class="dropdown-toggle nav-link"
+                href="#"
+                id="basic-nav-dropdown"
+                role="button"
+                tabindex="0"
+              >
+                Account
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="background-slider"
+    >
+      <div
+        class="carousel slide"
+      >
+        <div
+          class="carousel-indicators"
+        >
+          <button
+            aria-current="true"
+            aria-label="Slide 1"
+            class="active"
+            data-bs-target=""
+            type="button"
+          />
+          <button
+            aria-current="false"
+            aria-label="Slide 2"
+            data-bs-target=""
+            type="button"
+          />
+          <button
+            aria-current="false"
+            aria-label="Slide 3"
+            data-bs-target=""
+            type="button"
+          />
+        </div>
+        <div
+          class="carousel-inner"
+        >
+          <div
+            class="active carousel-item"
+          >
+            <img
+              alt="Slide 0"
+              class="d-block w-100"
+              src="test-file-stub"
+            />
+          </div>
+          <div
+            class="carousel-item"
+          >
+            <img
+              alt="Slide 1"
+              class="d-block w-100"
+              src="test-file-stub"
+            />
+          </div>
+          <div
+            class="carousel-item"
+          >
+            <img
+              alt="Slide 2"
+              class="d-block w-100"
+              src="test-file-stub"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div>
+      <div>
+        Home
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;

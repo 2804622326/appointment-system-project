@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows patient information for vet user 1`] = `
+<DocumentFragment>
+  <div
+    class="mt-2 mb-2"
+    style="background-color: whitesmoke;"
+  >
+    <h5>
+      Patient  Information
+    </h5>
+    <p
+      class="text-info"
+    >
+      Appointment No: A1
+    </p>
+    <p>
+      Name: Jane D
+    </p>
+    <p>
+      Email: j@d.com
+    </p>
+    <p
+      class="text-info"
+    >
+      Phone Number: 1
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`shows vet information for patient user 1`] = `
+<DocumentFragment>
+  <div
+    class="mt-2 mb-2"
+    style="background-color: whitesmoke;"
+  >
+    <h5>
+      Veterinarian  Information
+    </h5>
+    <p
+      class="text-info"
+    >
+      Appointment No: A1
+    </p>
+    <p>
+      Name: Dr. Sam Vet
+    </p>
+    <p
+      class="text-info"
+    >
+      Specialization: Surg
+    </p>
+    <p>
+      Email: s@v.com
+    </p>
+    <p
+      class="text-info"
+    >
+      Phone Number: 2
+    </p>
+  </div>
+</DocumentFragment>
+`;

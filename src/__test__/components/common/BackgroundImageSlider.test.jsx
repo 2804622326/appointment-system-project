@@ -1,6 +1,9 @@
 import React from 'react';
-import Component from '../../../components/common/BackgroundImageSlider.jsx';
+import { render } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import BackgroundImageSlider from '../../../components/common/BackgroundImageSlider.jsx';
 
-test('renders without crashing', () => {
-  expect(Component).toBeDefined();
+test('renders background slider and matches snapshot', () => {
+  const { asFragment } = render(<BackgroundImageSlider />);
+  expect(asFragment()).toMatchSnapshot();
 });
