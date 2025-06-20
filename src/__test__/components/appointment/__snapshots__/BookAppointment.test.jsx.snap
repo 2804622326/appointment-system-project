@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`submits form and shows success 1`] = `
+<DocumentFragment>
+  <div
+    class="mt-5 container"
+  >
+    <div
+      class="justify-content-center row"
+    >
+      <div
+        class="col-lg-6 col-md-10 col-sm-12"
+      >
+        <form
+          class=""
+        >
+          <div
+            class="shadow mb-5 card"
+          >
+            <h5
+              class="text-center card-header"
+            >
+               Appointment Booking Form
+            </h5>
+            <div
+              class="card-body"
+            >
+              <fieldset
+                class="field-set mb-4"
+              >
+                <legend
+                  class="text-center"
+                >
+                  Appointment Date and Time
+                </legend>
+                <div
+                  class="mb-4 row"
+                >
+                  <div
+                    class="col"
+                  >
+                    <input
+                      data-testid="date"
+                      placeholder="Choose a date"
+                    />
+                  </div>
+                  <div
+                    class="col"
+                  >
+                    <input
+                      data-testid="date"
+                      placeholder="Select time"
+                    />
+                  </div>
+                </div>
+              </fieldset>
+              <div
+                class="mb-4"
+              >
+                <label
+                  class="form-label"
+                >
+                  Reason for appointment
+                </label>
+                <textarea
+                  class="form-control"
+                  name="reason"
+                  required=""
+                  rows="3"
+                />
+              </div>
+              <h5
+                class="text-center"
+              >
+                Appointment Pet Information
+              </h5>
+              <div
+                data-testid="pet-entry"
+              />
+              <div
+                class="d-flex justify-content-center mb-3"
+              >
+                <button
+                  class="me-2 btn btn-primary btn-sm"
+                  type="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+                    />
+                  </svg>
+                </button>
+                <button
+                  class="me-2 btn btn-outline-primary btn-sm"
+                  type="submit"
+                >
+                    Book Appointment
+                </button>
+                <button
+                  class="btn btn-outline-info btn-sm"
+                  type="button"
+                >
+                  Reset
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

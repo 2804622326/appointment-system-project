@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders account chart with data 1`] = `
+<DocumentFragment>
+  <section>
+    <h5
+      class="mt-4 chart-title"
+    >
+      Account Activity Overview
+    </h5>
+    <div>
+      <div
+        data-testid="pie-chart"
+      >
+        <div>
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+        <div />
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

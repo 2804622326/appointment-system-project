@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders registration chart with data 1`] = `
+<DocumentFragment>
+  <section>
+     
+    <div>
+      <h5
+        class="chart-title mb-5"
+      >
+        Users Registration Overview
+      </h5>
+      <div
+        data-testid="bar-chart"
+      >
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
