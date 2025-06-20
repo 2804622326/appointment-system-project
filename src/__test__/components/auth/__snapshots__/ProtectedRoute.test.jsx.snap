@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`redirects to login if not authenticated 1`] = `
+<DocumentFragment>
+  <div>
+    redirect /login
+  </div>
+</DocumentFragment>
+`;
+
+exports[`redirects to unauthorized if role not allowed 1`] = `
+<DocumentFragment>
+  <div>
+    redirect /unauthorized
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders children when authorized 1`] = `
+<DocumentFragment>
+  <div>
+    secret
+  </div>
+</DocumentFragment>
+`;

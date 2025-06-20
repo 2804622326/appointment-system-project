@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`invokes callbacks and matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="mt-5 container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-6 col-12"
+      >
+        <form
+          class=""
+        >
+          <div>
+            <label
+              class="form-label"
+            >
+              Filter appointments by status:
+            </label>
+            <div
+              class="input-group"
+            >
+              <select
+                class="form-select"
+              >
+                <option
+                  value="all"
+                >
+                  all
+                </option>
+                <option
+                  value="pending"
+                >
+                  pending
+                </option>
+                <option
+                  value="approved"
+                >
+                  approved
+                </option>
+              </select>
+              <button
+                class="btn btn-secondary"
+                type="button"
+              >
+                Clear filter
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

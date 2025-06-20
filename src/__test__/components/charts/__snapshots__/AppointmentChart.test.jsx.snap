@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows appointment chart with data 1`] = `
+<DocumentFragment>
+  <section>
+    <h5
+      class="mb-4 chart-title"
+    >
+      Appointments Overview
+    </h5>
+    <div
+      data-testid="pie"
+    />
+  </section>
+</DocumentFragment>
+`;

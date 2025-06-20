@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows no data message when there are no patients 1`] = `
+<DocumentFragment>
+  <main>
+    <div
+      class="text-center mt-5"
+    >
+      <h5>
+        No  patients data  available at the moment
+      </h5>
+    </div>
+  </main>
+</DocumentFragment>
+`;

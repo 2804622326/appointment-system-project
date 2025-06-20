@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders spinner with variant 1`] = `
+<DocumentFragment>
+  <div
+    class="d-flex justify-content-center align-items-center mt-5"
+    style="height: 100%;"
+  >
+    <div
+      class="spinner-border text-primary"
+    />
+  </div>
+</DocumentFragment>
+`;

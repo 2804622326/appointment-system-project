@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders alert when message provided 1`] = `
+<DocumentFragment>
+  <div
+    class="fade alert alert-success alert-dismissible show"
+    role="alert"
+  >
+    <button
+      aria-label="Close alert"
+      class="btn-close"
+      type="button"
+    />
+    Saved
+  </div>
+</DocumentFragment>
+`;

@@ -8,4 +8,8 @@ module.exports = {
     '\\.(css|less|scss)$': 'identity-obj-proxy',
     '\\.(jpg|jpeg|png|gif|svg)$': '<rootDir>/__mocks__/fileMock.js',
   },
+  collectCoverageFrom: [
+    'src/components/{common,home,hooks,layout,modals}/**/*.{js,jsx}',
+    '!src/components/modals/ImageUploaderModal.jsx',
+  ],
 };

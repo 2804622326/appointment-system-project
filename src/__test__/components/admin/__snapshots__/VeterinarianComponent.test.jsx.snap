@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows no data message when there are no veterinarians 1`] = `
+<DocumentFragment>
+  <main
+    class="mt-2"
+  >
+    <div
+      class="text-center mt-5"
+    >
+      <h5>
+        No  veterinarian data  available at the moment
+      </h5>
+    </div>
+  </main>
+</DocumentFragment>
+`;

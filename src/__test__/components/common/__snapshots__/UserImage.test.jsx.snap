@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders placeholder when no photo and snapshot 1`] = `
+<DocumentFragment>
+  <img
+    alt="User photo"
+    class="card-img user-image"
+    src="test-file-stub"
+  />
+</DocumentFragment>
+`;
+
+exports[`renders user photo when provided 1`] = `
+<DocumentFragment>
+  <img
+    alt="User photo"
+    class="card-img user-image"
+    src="data:image/png;base64,aW1n"
+  />
+</DocumentFragment>
+`;
