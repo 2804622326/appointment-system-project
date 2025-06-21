@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app with router 1`] = `
+<DocumentFragment>
+  <main
+    class=""
+  >
+    <div
+      data-testid="router-provider"
+    >
+      router
+    </div>
+  </main>
+</DocumentFragment>
+`;
