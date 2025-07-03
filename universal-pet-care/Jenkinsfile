@@ -1,0 +1,40 @@
+pipeline {
+    agent any  // 在任意可用节点上执行
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // 从 GitHub 拉取代码
+                git branch: 'main', url: 'git@github.com:2804622326/appointment-system-project.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                // 用 Maven 编译项目
+                sh 'mvn clean package'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                // 运行单元测试
+                sh 'mvn test'
+            }
+        }
+
+        stage('Archive') {
+            steps {
+                // 保存打包的 jar 文件到 Jenkins 服务器
+                archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
+            }
+        }
+    }
+
+    post {
+        // 构建失败时发送通知（这里简单打印）
+        failure {
+            echo 'Build failed!'
+        }
+    }
+}
